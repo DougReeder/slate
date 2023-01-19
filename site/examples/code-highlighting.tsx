@@ -164,7 +164,7 @@ Prism.languages.insertBefore('javascript', 'prolog', {
 })
 Prism.languages.html = Prism.languages.extend('html', {})
 Prism.languages.insertBefore('html', 'prolog', {
-  comment: { pattern: /<!--[^\n]*-->/, alias: 'comment' },
+  comment: { pattern: /<!--[\s\S]*-->/, alias: 'comment' },
 })
 Prism.languages.markdown = Prism.languages.extend('markup', {})
 Prism.languages.insertBefore('markdown', 'prolog', {

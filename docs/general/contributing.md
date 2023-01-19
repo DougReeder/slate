@@ -48,6 +48,8 @@ Please include tests and docs with every pull request!
 
 The Slate repository is a monorepo that is managed with [lerna](https://github.com/lerna/lerna). Unlike more traditional repositories, this means that the repository must be built in order for tests, linting, or other common development activities to function as expected.
 
+You must have [NodeJS v16](https://nodejs.org/) or later installed.
+
 To run the build, you need to have the Slate repository cloned to your computer. After that, you need to `cd` into the directory where you cloned it, and install the dependencies with `yarn` and build the monorepo:
 
 ```text
